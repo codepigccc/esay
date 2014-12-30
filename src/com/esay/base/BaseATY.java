@@ -7,7 +7,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
 
-public class BaseActivity extends Activity implements IAsyncTaskable
+public class BaseATY extends Activity implements IAsyncTaskable
 {
    @Override
    public void onBackPressed()
@@ -16,7 +16,7 @@ public class BaseActivity extends Activity implements IAsyncTaskable
 	  finish();
    }
 
-   protected Context mContext=BaseActivity.this;
+   protected Context mContext=BaseATY.this;
    
    @Override
    protected void onCreate(Bundle savedInstanceState)
