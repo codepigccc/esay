@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/splash_lay"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="50dp"
+            android:src="@android:drawable/sym_def_app_icon" />
+        <TextView
+            android:id="@+id/splash_txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="上下肢康复仪"
+            android:textColor="@color/text_gray333"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/splash_txt1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="健康在于运动"
+            android:textColor="@color/text_gray333"
+            android:textSize="15sp" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="北京亿赛科技发展有限责任公司"
+        android:textColor="@color/text_gray666"
+        android:textSize="15sp" />
+</LinearLayout>

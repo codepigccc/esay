@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="url_api">http://api.4493.com/api.php</string>
+    <string name="url_api_backup">http://api.4493.com/api.php</string>
+    <string name="url_update">http://api.4493.com/api.php</string>
+    <string name="url_wap">http://m.4493.com</string>
+</resources>

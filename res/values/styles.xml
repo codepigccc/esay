@@ -12,4 +12,18 @@
     <!-- Application theme. -->
     <style name="AppTheme" parent="AppBaseTheme">        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
+      <style name="Anim_Popup" parent="android:Animation">        
+       <item name="android:windowEnterAnimation">@anim/popup_enter</item>    
+       <item name="android:windowExitAnimation">@anim/popup_exit</item>    
+  </style>    
+  
+  <style name="Anim_PopupMenu" parent="android:Animation">        
+       <item name="android:windowEnterAnimation">@anim/popup_menu_show</item>    
+       <item name="android:windowExitAnimation">@anim/popup_menu_hide</item>    
+  </style> 
+  
+  <style name="Theme_Noshadow" parent="android:style/Theme.Light">
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowContentOverlay">@null</item>
+  </style> 
 </resources>

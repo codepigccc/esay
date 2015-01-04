@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Red">#ff0000</color>
+    <color name="LightBlack">#454545</color>
+    <color name="Black">#000000</color>
+    <color name="White">#FFFFFF</color>
+    <color name="Brown">#969696</color>
+    <color name="categaryall_item">#f7f7f7</color>
+    <color name="categaryall_item_dw">#b5b4b5</color>
+    <color name="LightBrown">#dadada</color>
+    <color name="WhiteBrown">#F0F0F0</color>
+    <color name="WhiteTransparent">#7fffffff</color>
+    <color name="BrownTransparent">#7fdadada</color>
+
+  <color name="LightBlue">#00d2ff</color>
+  <color name="LightGolden">#ffedc7</color>
+  <color name="Golden">#f2c35d</color>
+  <color name="DarkGolden">#b59246</color>
+  <color name="Green">#049556</color>
+  <color name="GreenTopBar">#3bbda4</color>
+  <color name="Font_Red">#f75342</color>
+  <color name="Background">#e8e8e8</color>
+  <color name="Font_Brown">#929292</color>
+  <color name="Font_LightBrown">#c1c1c1</color>
+  
+  <color name="topbar_background_green">#19b294</color>
+  <color name="background_all">#e8e8e8</color>
+  <color name="brown_for_list_item">#f6f6f6</color>
+  <color name="cyan_for_list_item">#75d0bf</color>
+    <color name="line">#dddddd</color>
+    <!-- common start-->
+
+    <color name="text_white">#ffffff</color>
+    <color name="text_gray333">#333333</color>
+    <color name="text_gray666">#666666</color>
+    <color name="text_orange">#f39800</color>
+    <color name="text_disabled">#898989</color>
+    <color name="text_blue">#0066cb</color>
+    <color name="text_btn_green">#006cd0</color>
+    <color name="txt_btn_blue">#6e6e6e</color>
+  <!-- common end -->
+    </resources>
