@@ -1,5 +1,6 @@
 package com.esay.app;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
@@ -31,17 +32,17 @@ public class LoginSelectATY extends BaseATY
    @OnClick(R.id.login_select_lay_login)
    private void goLogin(View v)
    {
-	  
+	  startActivity(new Intent(mContext, LoginATY.class));
    }
    @OnClick(R.id.login_select_lay_reg)
    private void goRegister(View v)
    {
-	  
+	  startActivity(new Intent(mContext, RegisterATY.class));
    }
    
    @OnClick(R.id.login_select_lay_guest)
    private void goGuestLogin(View v)
    {
-	  
+	  startActivity(new Intent(mContext, LoginATY.class));
    }
 }
